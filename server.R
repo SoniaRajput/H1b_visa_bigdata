@@ -22,22 +22,18 @@ library(mapproj)
 
 #setwd("C:/Users/rajpu/Downloads")
 #setwd("C:/Users/rajpu/Desktop/Project/H1B_visa_eda-master")
-#token <- readRDS("droptoken.rds")
+token <- readRDS("droptoken.rds")
 
 #setwd("C:/Users/rajpu/Downloads")
-# drop_get(path = 'bigdata/h1b_compact.rds',
-#          local_file = 'h1b_compact.rds', 
-#          dtoken = token, 
-#         overwrite = TRUE,
-#         progress = TRUE)
+drop_get(path = 'bigdata/h1b_compact.rds',
+         local_file = 'h1b_compact.rds',
+         dtoken = token,
+        overwrite = TRUE,
+        progress = TRUE)
 
 h1b_df <- readRDS('h1b_compact.rds')
 
-
-# H-1B Visa transformed dataset
-# Data transformation source code available at https://github.com/sharan-naribole/H1B_visa_eda
 #Helper functions
-#setwd("C:/Users/rajpu/Desktop/Project/H1B_visa_eda-master/H1B_visa_eda-master")
 source("helpers.R")
 
 # Initializing value containers used for plotting

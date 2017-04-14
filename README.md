@@ -2,19 +2,15 @@
 
 Shiny Dashboard web application to enable exploratory data analysis on H-1B Visa applications disclosure data in the period 2011-2016 
 
-## Data Source
-
-I utilize the transformed H-1B dataset obtained from the data wrangling performed [here!](https://github.com/sharan-naribole/H1B_visa_eda)
-
 ## Files
 
-- [ui.r](https://github.com/sharan-naribole/H1b_visa_shiny/blob/master/ui.R)
-- [server.R](https://github.com/sharan-naribole/H1b_visa_shiny/blob/master/server.R)
-- [helpers.R](https://github.com/sharan-naribole/H1b_visa_shiny/blob/master/helpers.R)
+- [ui.r](https://github.com/SoniaRajput/H1b_visa_bigdata/blob/master/ui.R)
+- [server.R](https://github.com/SoniaRajput/H1b_visa_bigdata/blob/master/server.R)
+- [helpers.R](https://github.com/SoniaRajput/H1b_visa_bigdata/blob/master/helpers.R)
 
 These are the standard set of files used to build a Shiny app!
 
-[Check out the app here!](https://sonia-rajput.shinyapps.io/h1b/)
+[Check out the app here!](https://sonia-rajput.shinyapps.io/shinyapp/)
 
 ## App Inputs
 

@@ -2,7 +2,7 @@ name: shinyapp
 title:
 account: sonia-rajput
 server: shinyapps.io
-appId: 172342
-bundleId: 789804
+appId: 172364
+bundleId: 789869
 url: https://sonia-rajput.shinyapps.io/shinyapp/
-when: 1492200628.85327
+when: 1492203442.43354

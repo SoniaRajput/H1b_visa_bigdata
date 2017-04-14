@@ -2,8 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+droptoken.rds
 h1b_compact.rds
-rsconnect
+.httr-oauth
+.RData
+.Rhistory
+rsconnect/
 
 # Folder config file
 Desktop.ini

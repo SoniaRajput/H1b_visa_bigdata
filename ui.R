@@ -149,7 +149,7 @@ shinyUI(
 
                  br(),
 
-                 tags$p("Author: Sharan Naribole,", tags$a(href="https://github.com/sharan-naribole/H1b_visa_shiny", "GitHub repo", target= "_blank")),
+                 tags$p("Author: Sonia Rajput,", tags$a(href="https://github.com/SoniaRajput/H1b_visa_bigdata", "GitHub repo", target= "_blank")),
 
                  tags$p( "The ", tags$a(href="wikipedia.org/wiki/H-1B_visa","H-1B",target="_blank"), "is an employment-based,
                  non-immigrant visa for temporary foreign workers
